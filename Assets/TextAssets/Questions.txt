@@ -1,3 +1,15 @@
-How do you do?
-What about you?
-Me, what about you?
+Do you use strong, unique passwords for each of your important accounts?
+Do you use a password manager to store your passwords securly?
+Do you enable a second authentication factor like a code sent to your phone for any accounts that offer it?
+Do you install updates for your computers, laptops, tablets, and phones whenever they are available?
+Do you have antivirus software installed on your computers, laptops, tablets, and phones?
+Are all your devices protected by a password, PIN, or biometrics (fingerprints, facial recognition, etc.)?
+Are all your devices actively supported by the manufacturer?
+Do you have separate wireless networks for your personal devices, guest devices, and smarthome devices?
+Are your home wireless networks protected by a passphrase?
+Do you avoid using public wifi?
+Have you secured you home router by configuring its firewall, services, wireless, and password?
+Do you have an automated backup in place that stores backup data outside of your home?
+Do you easily identify phishing, spam, and other fraudulent emails?
+Do you know what to do if one of your accounts is compromised?
+Do you regularly improve your digital and cyber security literacy?
