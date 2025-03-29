@@ -6,7 +6,7 @@ public class Question : MonoBehaviour
 {
     public enum ResponseType
     {
-        YES, NO, IDK, NA
+        NO, IDK, NA
     };
 
     [SerializeField]
@@ -14,13 +14,9 @@ public class Question : MonoBehaviour
     [SerializeField]
     public ResponseType responseType;
     [SerializeField]
-    public Response[] positiveResponses;
-    [SerializeField]
     public Response[] negativeResponses;
     [SerializeField]
     public Response[] idkResponses;
-    [SerializeField]
-    public int positiveResponseIndex;
     [SerializeField]
     public int negativeResponseIndex;
     [SerializeField]
@@ -30,9 +26,6 @@ public class Question : MonoBehaviour
     {
         switch (responseType)
         {
-            case ResponseType.YES:
-                if (positiveResponseIndex < positiveResponses.Length - 1) return true;
-                else return false;
             case ResponseType.NO:
                 if (negativeResponseIndex < negativeResponses.Length - 1) return true;
                 else return false;
