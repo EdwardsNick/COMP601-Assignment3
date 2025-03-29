@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'Securing your home router starts with a few key things. '
   pageTitles: Key Router Security Changes
   urls: https://www.consumerreports.org/electronics-computers/wireless-routers/ways-to-boost-router-security-a3824459325/
 --- !u!1 &120214163
@@ -496,7 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: How can we do updates? Let's find out
   pageTitles: Doing common updates
   urls: https://us.norton.com/blog/how-to/the-importance-of-general-software-updates-and-patches
 --- !u!1 &233601441
@@ -575,7 +575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: How can we ensure your home network is secure?
   pageTitles: Update your WiFi Passphrase
   urls: https://www.youtube.com/watch?v=XRxXhsWnq9s&ab_channel=WiFiGuy-BecomeYourOwnITGuy%21
 --- !u!1 &255519534
@@ -622,8 +622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: What are biometrics?
+  text: Now, what are biometrics?
+  pageTitles: Biometrics Explained
   urls: https://www.cyber.gc.ca/en/guidance/biometrics-itsap00019
 --- !u!1 &266095580
 GameObject:
@@ -669,7 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: How can we secure all the devices in our home network?
   pageTitles: Home Network Segmentation
   urls: https://medium.com/swlh/basic-home-network-hygiene-network-segmentation-22f81791a264
 --- !u!1 &267997706
@@ -716,7 +716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'As part of dealing with an incident with your accounts, you should also
+    report it to the authorities. '
   pageTitles: Know How to Report It
   urls: https://www.cyber.gc.ca/en/contact-cyber-centre
 --- !u!1 &289739466
@@ -763,7 +764,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'This isn''t the end of learning about cybersecurity. It is a continous process
+    but there are many resources out there. '
   pageTitles: Free Cyber Security Training
   urls: https://lh-ca.cyber.gc.ca/course/index.php?categoryid=16
 --- !u!1 &304001855
@@ -1113,7 +1115,6 @@ MonoBehaviour:
   - {fileID: 844140986}
   - {fileID: 879277227}
   - {fileID: 1571446535}
-  - {fileID: 0}
   - {fileID: 578142661}
   - {fileID: 304001857}
   - {fileID: 131436481}
@@ -1249,7 +1250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: What does it mean to lock your device and how does that protect you?
   pageTitles: Lock Screens
   urls: https://www.lenovo.com/gb/en/glossary/lock-screen/?orgRef=https%253A%252F%252Fwww.google.com%252F
 --- !u!1 &410853528
@@ -1329,7 +1330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Now let's dive into some more advanced router security concepts.
   pageTitles: Advanced Router Changes
   urls: https://www.cyber.gc.ca/en/guidance/routers-cyber-security-best-practices-itsap80019
 --- !u!1 &438574305
@@ -1431,8 +1432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: Why are updates important?
+  text: What are updates and why do you need to do them?
+  pageTitles: Why updates are important
   urls: https://www.techtarget.com/whatis/feature/5-reasons-software-updates-are-important
 --- !u!1 &448850074
 GameObject:
@@ -1876,7 +1877,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'No one wants to gets their account(s) compromised, but we should all be
+    prepared in case it does happen. '
   pageTitles: What to do if you are 'hacked'?
   urls: https://www.money.co.uk/guides/the-7-things-you-need-to-do-if-you-get-hacked
 --- !u!1 &608401169
@@ -2227,7 +2229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: How can we secure our devices against viruses and other dangers?
   pageTitles: Antivirus Basics
   urls: https://www.security.org/antivirus/do-you-need-antivirus/
 --- !u!1 &673524225
@@ -2306,7 +2308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Backups are critical to keeping your data safe.
   pageTitles: Tips for Backing up Your Data
   urls: https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data
 --- !u!1 &780207116
@@ -2386,7 +2388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Why is public wifi so bad?
   pageTitles: The Risks of Public Wifi
   urls: https://ca.norton.com/blog/privacy/risks-of-public-wi-fi
 --- !u!1 &842129508
@@ -2433,7 +2435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Backups are critical to keeping your data safe.
   pageTitles: Tips for Backing up Your Data
   urls: https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data
 --- !u!1 &844140984
@@ -2537,7 +2539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: What is antivirus and why do you need it?
   pageTitles: Antivirus Basics
   urls: https://www.security.org/antivirus/do-you-need-antivirus/
 --- !u!1 &866037767
@@ -2584,7 +2586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'Securing your home router starts with a few key things. '
   pageTitles: Key Router Security Changes
   urls: https://www.consumerreports.org/electronics-computers/wireless-routers/ways-to-boost-router-security-a3824459325/
 --- !u!1 &879277225
@@ -2742,7 +2744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'These are a just a few of the free resources to keep yourself up to date
+    on securing your personal information. '
   pageTitles: More Free Cyber Security Training
   urls: https://www.sans.org/cyberaces/
 --- !u!1 &905902746
@@ -3187,8 +3190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: Why is it important?
+  text: Not doing multifactor authentication now? Let's change that...
+  pageTitles: MFA Explained
   urls: https://www.staysafeonline.org/articles/multi-factor-authentication
 --- !u!1 &1019863421
 GameObject:
@@ -3283,7 +3286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: How do we set these passphrases?
   pageTitles: Update your WiFi Passphrase
   urls: https://www.youtube.com/watch?v=XRxXhsWnq9s&ab_channel=WiFiGuy-BecomeYourOwnITGuy%21
 --- !u!1 &1036466763
@@ -3330,7 +3333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: How can we secure all the devices in our home network?
   pageTitles: Home Network Segmentation
   urls: https://medium.com/swlh/basic-home-network-hygiene-network-segmentation-22f81791a264
 --- !u!1 &1043198079
@@ -3453,7 +3456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Not sure about a password manager? Let's go through what they are and how
+    to set them up.
   pageTitles: Password Managers - Step by Step
   urls: https://www.allthingssecured.com/identity-protection/how-do-password-managers-work/
 --- !u!1 &1079856369
@@ -3485,7 +3489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'These are a just a few of the free resources to keep yourself up to date
+    on securing your personal information. '
   pageTitles: More Free Cyber Security Training
   urls: https://www.sans.org/cyberaces/
 --- !u!4 &1079856371
@@ -3766,8 +3771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: Why is it important?
+  text: 'And now, what makes multifactor authentication so important. '
+  pageTitles: MFA Explained
   urls: https://www.staysafeonline.org/articles/multi-factor-authentication
 --- !u!1 &1139300991
 GameObject:
@@ -3813,7 +3818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Why is public wifi so bad?
   pageTitles: The Risks of Public Wifi
   urls: https://ca.norton.com/blog/privacy/risks-of-public-wi-fi
 --- !u!1 &1140203788
@@ -3893,7 +3898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'Spotting a dangerous email is easier than it first seems. There are a few
+    key items to lookout for:'
   pageTitles: How to spot a malicious email
   urls: http://cloudtech24.com/2025/01/7-ways-to-spot-a-phishing-email/
 --- !u!1 &1179047453
@@ -3977,7 +3983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'With you confident on passwords themselves, let''s store them somewhere
+    safe. '
   pageTitles: Password Managers - Step by Step
   urls: https://www.allthingssecured.com/identity-protection/how-do-password-managers-work/
 --- !u!1 &1226621293
@@ -4225,7 +4232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'This isn''t the end of learning about cybersecurity. It is a continous process
+    but there are many resources out there. '
   pageTitles: Free Cyber Security Training
   urls: https://lh-ca.cyber.gc.ca/course/index.php?categoryid=16
 --- !u!1 &1262818619
@@ -4651,7 +4659,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'Spotting a dangerous email is easier than it first seems. There are a few
+    key items to lookout for:'
   pageTitles: How to spot a malicious email
   urls: http://cloudtech24.com/2025/01/7-ways-to-spot-a-phishing-email/
 --- !u!1 &1392635166
@@ -4731,8 +4740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: What is MFA?
+  text: 'Let''s start with: What is MFA?'
+  pageTitles: MFA Basics
   urls: https://support.microsoft.com/en-us/topic/what-is-multifactor-authentication-e5e39437-121c-be60-d123-eda06bddf661
 --- !u!1 &1396814039
 GameObject:
@@ -4875,7 +4884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Now let's dive into some more advanced router security concepts.
   pageTitles: Advanced Router Changes
   urls: https://www.cyber.gc.ca/en/guidance/routers-cyber-security-best-practices-itsap80019
 --- !u!1 &1551693071
@@ -4922,8 +4931,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: What is a PIN?
+  text: 'Let''s start with: What is a PIN?'
+  pageTitles: PIN Security
   urls: https://www.lenovo.com/ca/en/glossary/pin/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOor5OlHZn6UeWSKW96OKcU7sOGGmXNeTyxGoa-svK0MMAQ-XyR-g
 --- !u!1 &1569084087
 GameObject:
@@ -5253,7 +5262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Now, put that learning into practice.
   pageTitles: Try the Phishing Quiz
   urls: https://phishingquiz.withgoogle.com/
 --- !u!1 &1602548106
@@ -5538,7 +5547,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'You wouldn''t walk away without locking your car - your other devices should
+    be no different. '
   pageTitles: Lock Screens
   urls: https://www.lenovo.com/gb/en/glossary/lock-screen/?orgRef=https%253A%252F%252Fwww.google.com%252F
 --- !u!1 &1629322263
@@ -5585,7 +5595,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'No one wants to gets their account(s) compromised, but we should all be
+    prepared in case it does happen. '
   pageTitles: What to do if you are 'hacked'?
   urls: https://www.money.co.uk/guides/the-7-things-you-need-to-do-if-you-get-hacked
 --- !u!1 &1634672458
@@ -5946,8 +5957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: What is a wireless passphrase?
+  text: What does a wireless passphrases even mean?
+  pageTitles: Wireless Passphrases
   urls: https://www.ruckusnetworks.com/blog/2023/wireless-security-with-passphrases/
 --- !u!1 &1712311228
 GameObject:
@@ -6049,7 +6060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: How can we do updates? Let's find out
   pageTitles: Doing common updates
   urls: https://us.norton.com/blog/how-to/the-importance-of-general-software-updates-and-patches
 --- !u!1 &1765870821
@@ -6096,8 +6107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: Why are updates important?
+  text: 'Updates may seem like a minor thing, but let''s see why they aren''t so
+    minor. '
+  pageTitles: Why updates are important
   urls: https://www.techtarget.com/whatis/feature/5-reasons-software-updates-are-important
 --- !u!1 &1818216493
 GameObject:
@@ -6143,8 +6155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  pageTitles: Why are passwords important?
+  text: If you aren't sure about password security, that's okay. First, let's start
+    with why...
+  pageTitles: The Importance of Passwords
   urls: https://www.cyber.gc.ca/en/guidance/best-practices-passphrases-and-passwords-itsap30032
 --- !u!1 &1884972541
 GameObject:
@@ -6370,7 +6383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: Now, put that learning into practice.
   pageTitles: Try the Phishing Quiz
   urls: https://phishingquiz.withgoogle.com/
 --- !u!1 &2068062544
@@ -6496,7 +6509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15f994186e20f45b346f54044d56f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
+  text: 'As part of dealing with an incident with your accounts, you should also
+    report it to the authorities. '
   pageTitles: Know How to Report It
   urls: https://www.cyber.gc.ca/en/contact-cyber-centre
 --- !u!1 &2134267059
