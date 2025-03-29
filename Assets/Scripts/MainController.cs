@@ -6,43 +6,25 @@ using UnityEngine.UI;
 public class MainController : MonoBehaviour
 {
     public Canvas mainCanvas;
+    public QuestionDatabase question;
     public TextMeshProUGUI questionText;
-    public TextAsset questionsDataFile;
     public Button yesButton;
     public Button noButton;
     public Button idkButton;
-    public float buttonTimeout;
     public float questionTransitionTime;
-    public QuestionDatabase question;
 
-    private int questionNumber;
-
-    private string[] questions;
-    private Dictionary<string, int> answers;
-
-    private float buttonTimer;
     private float questionTransitionTimer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        questionNumber = 0;
-        answers = new Dictionary<string, int>();
-        LoadQuestionsFromFile();
         LoadNextQuestion();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (buttonTimer > 0)
-        {
-            buttonTimer -= Time.deltaTime;
-            if (buttonTimer < 0)
-            {
-                ActivateButtons();
-            }
-        }
+
         if (questionTransitionTimer > 0)
         {
             questionTransitionTimer -= Time.deltaTime;
@@ -65,35 +47,16 @@ public class MainController : MonoBehaviour
         }
     }
 
-    public void LoadQuestionsFromFile ()
-    {
-        questions = questionsDataFile.text.Split("\r\n");
-    }
-
-    public void ActivateButtons()
-    {
-        yesButton.enabled = true;
-        noButton.enabled = true;
-        idkButton.enabled = true;
-    }
-
-    public void DeactivateButtons()
-    {
-        yesButton.enabled = false;
-        noButton.enabled = false;
-        idkButton.enabled = false;
-    }
-
     public void LoadNextQuestion()
     {
-        if (questionNumber < questions.Length)
+        /*if (questionNumber < questions.Length)
         {
             questionText.text = questions[questionNumber++];
         }
         else
         {
             Quit();
-        }
+        }*/
     }
 
     public void Quit()
@@ -108,25 +71,16 @@ public class MainController : MonoBehaviour
 
     public void OnYes()
     {
-        DeactivateButtons();
         questionTransitionTimer = questionTransitionTime;
-        answers.Add(questions[questionNumber - 1], 1);
-        buttonTimer = buttonTimeout;
     }
 
     public void OnNo()
     {
-        DeactivateButtons();
-        answers.Add(questions[questionNumber - 1], -1);
         questionTransitionTimer = questionTransitionTime;
-        buttonTimer = buttonTimeout;
     }
 
     public void OnIDK ()
     {
-        DeactivateButtons();
-        answers.Add(questions[questionNumber - 1], 0);
         questionTransitionTimer = questionTransitionTime;
-        buttonTimer = buttonTimeout;
     }
 }

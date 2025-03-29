@@ -11,7 +11,13 @@ public class QuestionDatabase : MonoBehaviour
     [SerializeField]
     public int questionNumber;
 
+    public TextAsset questionsDataFile;
     private Question currentQuestion;
+
+    private void Awake()
+    {
+        Load();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,7 +37,21 @@ public class QuestionDatabase : MonoBehaviour
         currentQuestion = questions[number];
     }
 
-    public int GetQuestionNumber ()
+    public bool nextQuestion()
+    {
+        questionNumber++;
+        if (questionNumber == questions.Count)
+        {
+            questionNumber--;
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
+    public int GetQuestionNumber()
     {
         return questionNumber;
     }
@@ -40,4 +60,33 @@ public class QuestionDatabase : MonoBehaviour
     {
         return currentQuestion;
     }
+    public void Save()
+    {
+        PlayerPrefs.SetString("SaveState", JsonUtility.ToJson(this));
+        PlayerPrefs.Save();
+    }
+
+    private void LoadQuestionsFromFile()
+    {
+        //questions = questionsDataFile.text.Split("\r\n");
+    }
+
+    private void LoadQuestionsFromSaveState ()
+    {
+
+    }
+
+    private void Load ()
+    {
+        if (PlayerPrefs.HasKey("SaveState"))
+        {
+            LoadQuestionsFromSaveState();
+        }
+        else
+        {
+            LoadQuestionsFromFile();
+        }
+    }
+
+    
 }
