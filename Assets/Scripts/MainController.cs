@@ -13,6 +13,7 @@ public class MainController : MonoBehaviour
     public Button idkButton;
     public float buttonTimeout;
     public float questionTransitionTime;
+    public QuestionDatabase question;
 
     private int questionNumber;
 
