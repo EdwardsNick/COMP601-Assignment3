@@ -11,13 +11,7 @@ public class QuestionDatabase : MonoBehaviour
     [SerializeField]
     public int questionNumber;
 
-    public TextAsset questionsDataFile;
     private Question currentQuestion;
-
-    private void Awake()
-    {
-        Load();
-    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -66,27 +60,12 @@ public class QuestionDatabase : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    private void LoadQuestionsFromFile()
+    public bool QuestionsComplete()
     {
-        //questions = questionsDataFile.text.Split("\r\n");
-    }
-
-    private void LoadQuestionsFromSaveState ()
-    {
-
-    }
-
-    private void Load ()
-    {
-        if (PlayerPrefs.HasKey("SaveState"))
+        if (questions[questions.Count - 1].responseType != Question.ResponseType.NA)
         {
-            LoadQuestionsFromSaveState();
+            return true;
         }
-        else
-        {
-            LoadQuestionsFromFile();
-        }
+        else return false;
     }
-
-    
 }

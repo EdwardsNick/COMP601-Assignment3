@@ -22,7 +22,7 @@ public class Question : MonoBehaviour
     [SerializeField]
     public int idkResponseIndex;
 
-    public bool hasMoreResponses()
+    public bool HasMoreResponses()
     {
         switch (responseType)
         {
@@ -33,6 +33,22 @@ public class Question : MonoBehaviour
                 if (idkResponseIndex < idkResponses.Length - 1) return true;
                 else return false;
             default: return false;
+        }
+    }
+
+    public Response nextResponse()
+    {
+        if (!HasMoreResponses()) return null;
+
+        switch (responseType)
+        {
+            case ResponseType.NO:
+                negativeResponseIndex++;
+                return negativeResponses[negativeResponseIndex];
+            case ResponseType.IDK:
+                idkResponseIndex++;
+                return idkResponses[idkResponseIndex];
+            default: return null;
         }
     }
 }

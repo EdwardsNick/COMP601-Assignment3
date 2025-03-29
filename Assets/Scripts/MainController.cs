@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class MainController : MonoBehaviour
 {
-    public Canvas mainCanvas;
-    public QuestionDatabase question;
+    public CanvasGroup titleCanvas;
+    public TextMeshProUGUI titleButtonText;
+    public CanvasGroup mainCanvas;
+    public QuestionDatabase questionDatabase;
     public TextMeshProUGUI questionText;
     public Button yesButton;
     public Button noButton;
@@ -14,17 +16,36 @@ public class MainController : MonoBehaviour
     public float questionTransitionTime;
 
     private float questionTransitionTimer;
+    private bool titleFade;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        LoadNextQuestion();
+        titleFade = false;
+        if (PlayerPrefs.HasKey("SaveState"))
+        {
+            titleButtonText.text = "Resume";
+            LoadQuestionDatabase();
+            if (questionDatabase.QuestionsComplete())
+            {
+                //Generate Report
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (titleFade)
+        {
+            titleCanvas.alpha = Mathf.MoveTowards(titleCanvas.alpha, 0, Time.deltaTime);
+            if (titleCanvas.alpha <= 0)
+            {
+                titleFade = false;
+                titleCanvas.gameObject.SetActive(false);
+                mainCanvas.interactable = true;
+            }
+        }
         if (questionTransitionTimer > 0)
         {
             questionTransitionTimer -= Time.deltaTime;
@@ -47,6 +68,11 @@ public class MainController : MonoBehaviour
         }
     }
 
+    private void LoadQuestionDatabase ()
+    {
+        questionDatabase = JsonUtility.FromJson<QuestionDatabase>(PlayerPrefs.GetString("SaveState"));
+    }
+
     public void LoadNextQuestion()
     {
         /*if (questionNumber < questions.Length)
@@ -57,6 +83,8 @@ public class MainController : MonoBehaviour
         {
             Quit();
         }*/
+
+        questionDatabase.Save();
     }
 
     public void Quit()
@@ -67,6 +95,14 @@ public class MainController : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
+    }
+
+    public void onStart()
+    {
+
+        LoadNextQuestion(); 
+        titleFade = true;
+        
     }
 
     public void OnYes()
